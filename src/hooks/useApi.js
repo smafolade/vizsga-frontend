@@ -2,7 +2,7 @@ import userEvent from "@testing-library/user-event";
 import axios from "axios";
 import {useCallback, useEffect, useState} from "react";
 
-const TESTING = true;
+const TESTING = false;
 
 const BASE_URL_LOCAL = 'http://localhost:8787';
 const BASE_URL_LIVE = 'https://wallet.phoesa.workers.dev';
